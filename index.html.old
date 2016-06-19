@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<title>Martin Velez</title>
+
+	<link rel="stylesheet" href="stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/github-light.css">
+	<link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width">
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="wrapper">
+<header>
+	<h1>Martin Velez</h1>
+	<img src="http://graph.facebook.com/100010604197899/picture?type=large"
+alt="Martin Velez">
+
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-envelope"></i><a href="mailto:marvelez@ucdavis.edu">marvelez@ucdavis.edu</a></li>
+  <li><i class="fa-li fa fa-facebook"></i><a href="https://www.facebook.com/martinvelez">Facebook</a></li>
+</ul>
+<ul>
+	<li><a href="">About</a></li>
+	<li><a href="">Blog</a></li>
+	<li><a href="">Projects</a></li>
+	<li><a href="">Contact</a></li>
+</ul>
+
+<!--
+	<ul class="icons">
+		<li><a href="https://twitter.com/martin_velez_" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+		<li><a href="https://github.com/martinvelez" class="icon fa-github"><span class="label">Github</span></a></li>
+		<li><a href="https://bitbucket.org/martinvelez" class="icon fa-bitbucket"><span class="label">Bitbucket</span></a></li>
+		<li><a href="http://stackoverflow.com/users/295249/martin-velez" class="icon fa-stack-overflow"><span class="label">Stack Overflow</span></a></li>
+		<li><a href="http://plus.google.com/+MartinVelez/posts" class="icon fa-google-plus"><span class="label"></a></li>
+		<li><a href="http://www.goodreads.com/user/show/9256653-martin" class="icon fa-book"><span class="label">Goodreads</span></a></li>
+		<li><a href="http://www.linkedin.com/pub/martin-velez/5/201/720" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		<li><a href="http://www.mapmyrun.com/profile/3081002/#user_dashboard" class="icon fa-heart"><span class="label">Map My Run</span></a></li>
+	</ul>
+-->
+</header>
+<section>
+<!--<h1>Martin Velez</h1>-->
+<h3>About</h3>
+
+<p>I am a Computer Science Ph.D. Student at <a href="https://www.ucdavis.edu/">UC Davis</a>.  My research spans Computer
+Science Education, Programming Languages, and Software Engineering.  My vision
+is a world where everyone has <b>useful</b> computer science knowledge and
+skills.  I hope my research helps make that vision a reality.  Here is my <a
+href="">CV</a>.</p>
+
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates"
+aria-hidden="true"><span aria-hidden="true" class="octicon
+octicon-link"></span></a>Recent Projects</h3>
+
+<ul>
+	<li><a href="http://cumulus.cs.ucdavis.edu">Cumulus</a>: An online cloud
+development environment and learning management system.</li>
+	<li><a href=>Categorizer (Demo)</a>: Organize coffee flavor attributes into
+trees.  Used to develop the new coffee flavor wheel!</li>
+	<li>Lexical Distinguishability: What is the essence of code?</li>
+	<li><a href="https://bitbucket.org/martinvelez/bovine_brd">Bovine Respiratory
+Disease</a>: Track the grooming behavior of steer (male cows) to better diagnose
+those that suffer from bovine respiratory disease.</li>
+</ul>
+
+<p>Checkout my <a href="https://github.com/martinvelez">Github</a>, and <a
+href="https://bitbucket.org/">Bitbucket</a>.</p> 
+
+<h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually"
+aria-hidden="true"><span aria-hidden="true" class="octicon
+octicon-link"></span></a>Education</h3>
+
+<table>
+	<tr>
+		<td>Ph.D.</td>
+		<td>Computer Science</td>
+		<td>University of California, Davis<br>
+		Advisor: Prof. <a href="http://web.cs.ucdavis.edu/~su/">Zhendong Su</a></td>
+		<td>2012 - Present</td>
+	</tr>
+	<tr>
+		<td>B.A.</td>
+		<td>Economics</td>
+		<td>University of California, Davis</td>
+		<td>2010</td>
+	</tr>
+</table>
+
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors"
+aria-hidden="true"><span aria-hidden="true" class="octicon
+octicon-link"></span></a>Awards</h3>
+<table>
+<tr>
+	<td>2014</td>
+	<td><a href="http://src.acm.org/previouswinners.html">Splash 2014
+Student Research Competition</a> -- 1<sup>st</sup> Place</td>
+</tr>
+
+<tr>
+	<td>2013</td>
+	<td><a href="http://www.nsfgrfp.org/">National Science
+Foundation Graduate Research Fellowship Program</a></td>
+</tr>
+<tr>
+	<td>2012</td>
+	<td>UCD College of Eng. Towards Outstanding and Promising Students (TOPS) Fellowship</td>
+</tr>
+</table>
+
+<h3>Teaching</h3>
+<table>
+	<tbody>
+	<tr>
+	<td>Winter 2016</td>
+	<td><b>Teaching Assistant</b>, Programming Languages (<a
+	href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140a</a>),
+	UC Davis.  Graded programming assignments, tutored students during office hours,
+	answered questions on online question-and-answer message boards, produced video
+	tutorials.</td>
+	</tr>
+
+	<tr>
+	<td>Fall 2015</td>
+	<td><b>Teaching Assistant</b>, Programming Languages (<a
+	href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140a</a>),
+	UC Davis.  Led weekly discussions, graded programming assignments.</td>
+	</tr>
+	</tbody>
+</table>
+
+</section> 
+<footer class="clearfix"> 
+<p><small>Hosted on GitHub Pages &mdash; Theme by
+<a href="https://github.com/orderedlist">orderedlist</a></small></p> 
+</footer>
+</div> 
+
+<script src="javascripts/scale.fix.js"></script>
+</body>
+</html>

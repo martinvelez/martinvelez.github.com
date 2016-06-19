@@ -1,98 +1,170 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<title>Martin Velez</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Martin Velez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/custom.min.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media
+queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+	</head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="../" class="navbar-brand">Martin Velez</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse"
+data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+id="themes">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="../default/">Project 1</a></li>
+                <li><a href="../default/">Project 2</a></li>
+                <li><a href="../default/">Project 3</a></li>
+              </ul>
+            </li>
+						<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+id="themes">Publications <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="themes">
+                <li><a href="../default/">Publication 1</a></li>
+                <li><a href="../default/">Publication 2</a></li>
+                <li><a href="../default/">Publication 3</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="./blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-	<link rel="stylesheet" href="stylesheets/styles.css">
-	<link rel="stylesheet" href="stylesheets/github-light.css">
-	<meta name="viewport" content="width=device-width">
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-</head>
-<body>
-<div class="wrapper">
- 	<header>
-		<img src="http://graph.facebook.com/100010604197899/picture?type=large"
-alt="Martin Velez" style="float:left">
-		<h1>Martin Velez</h1>
-		<p>Ph.D. Student<br>
-		Computer Science<br>
-		UC Davis</p>
-		<p>@martinvelez</p>
-		<p class="view"><a href="https://github.com/martinvelez">View My GitHub Profile</a></p>
- 	</header>
-	<section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"
-aria-hidden="true"><span aria-hidden="true" class="octicon
-octicon-link"></span></a>About</h3>
 
-<p>I am a Computer Science Ph.D. Student at <a
-href="https://www.ucdavis.edu/">UC Davis</a>.  My advisor is Prof. <a
-href="http://web.cs.ucdavis.edu/~su/">Zhendong Su</a>.
-My research spans Computer Science Education, Programming
-Languages, and Software Engineering.  My vision is a world where everyone has
-<b>useful</b> computer science knowledge and skills.  I hope my research helps make that
-vision a reality.  Here is my <a href="">CV</a>.</p>
+    <div class="container">
+			<div class="row" style="margin-top:80px">
+				<div class="col-sm-3">
+					<p><img
+src="http://graph.facebook.com/100010604197899/picture?type=large"
+style="max-width:100%"></p>
+				</div>
+				<div class="col-sm-9">
+					<h1>Martin Velez</h1>
+					<p class="lead">Computer Science Ph.D. Student at UC Davis</p>
+					<p>marvelez@ucdavis.edu</p>
+				</div>
+			</div>
+			<hr>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates"
-aria-hidden="true"><span aria-hidden="true" class="octicon
-octicon-link"></span></a>Projects</h3>
+	<h3>About</h3>
+	<p>I am a Computer Science Ph.D. Student at <a
+	href="https://www.ucdavis.edu/">UC Davis</a>.  My research spans Computer
+	Science Education, Programming Languages, and Software Engineering.  My vision
+	is a world where everyone has <b>useful</b> computer science knowledge and
+	skills.  I hope my research helps make that vision a reality.  Here is my <a
+	href="">CV</a>.</p>
 
-<ul>
-	<li><a href="http://cumulus.cs.ucdavis.edu">Cumulus</a>: An online cloud
-development environment and learning management system.</li>
-	<li>Categorizer: Allows you to categorize and subcategorize a list of words.
-used in a food science study.</li>
-</ul>
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click
-'Continue to layouts' to browse through them. You can easily go back to edit
-your page before publishing. After publishing your page, you can revisit the
-page generator and switch to another theme. Your Page content will be
-preserved.</p>
+	<h3>Recent Projects</h3>
+	<ul>
+		<li><a href="http://cumulus.cs.ucdavis.edu">Cumulus</a>: An online cloud
+	development environment and learning management system.</li>
+		<li><a href=>Categorizer (Demo)</a>: Organize coffee flavor attributes into
+	trees.  Used to develop the new coffee flavor wheel!</li>
+		<li>Lexical Distinguishability: What is the essence of code?</li>
+		<li><a href="https://bitbucket.org/martinvelez/bovine_brd">Bovine Respiratory
+	Disease</a>: Track the grooming behavior of steer (male cows) to better diagnose
+	those that suffer from bovine respiratory disease.</li>
+	</ul>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually"
-aria-hidden="true"><span aria-hidden="true" class="octicon
-octicon-link"></span></a>Creating pages manually</h3>
+<p>Checkout my <a href="https://github.com/martinvelez">Github</a>, and <a
+href="https://bitbucket.org/">Bitbucket</a>.</p> 
 
-<p>If you prefer to not use the automatic generator, push a branch named
-<code>gh-pages</code> to your repository to create a page manually. In addition
-to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog
-aware static site generator. Jekyll makes it easy to create site-wide headers
-and footers without having to copy them across every page. It also offers
-intelligent blog support and other advanced templating features.</p>
+	<h3>Education</h3>
+	<table class="table table-striped table-hover">
+		<tr>
+			<td>Ph.D.</td>
+			<td>Computer Science</td>
+			<td>University of California, Davis<br>
+			Advisor: Prof. <a href="http://web.cs.ucdavis.edu/~su/">Zhendong Su</a></td>
+			<td>2012 - Present</td>
+		</tr>
+		<tr>
+			<td>B.A.</td>
+			<td>Economics</td>
+			<td>University of California, Davis</td>
+			<td>2010</td>
+		</tr>
+	</table>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors"
-aria-hidden="true"><span aria-hidden="true" class="octicon
-octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a
-href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams"
-class="user-mention">@mention</a> a GitHub username to generate a link to their
-profile. The resulting <code>&lt;a&gt;</code> element will link to the
-contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a
-href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett
-(<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and
-Tom Preston-Werner (<a href="https://github.com/mojombo"
-class="user-mention">@mojombo</a>) founded GitHub.</p>
+	<h3>Awards</h3>
+	<table class="table table-striped table-hover">
+	<tr>
+		<td>2014</td>
+		<td><a href="http://src.acm.org/previouswinners.html">Splash 2014
+	Student Research Competition</a> -- 1<sup>st</sup> Place</td>
+	</tr>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact"
-aria-hidden="true"><span aria-hidden="true" class="octicon
-octicon-link"></span></a>Support or Contact</h3>
+	<tr>
+		<td>2013</td>
+		<td><a href="http://www.nsfgrfp.org/">National Science
+	Foundation Graduate Research Fellowship Program</a></td>
+	</tr>
+	<tr>
+		<td>2012</td>
+		<td>UCD College of Eng. Towards Outstanding and Promising Students (TOPS) Fellowship</td>
+	</tr>
+	</table>
 
-<p>Having trouble with Pages? Check out our <a
-href="https://help.github.com/pages">documentation</a> or <a
-href="https://github.com/contact">contact support</a> and we’ll help you sort it
-out.</p> </section> <footer> <p><small>Hosted on GitHub Pages &mdash; Theme by
-<a href="https://github.com/orderedlist">orderedlist</a></small></p> </footer>
-</div> 
-<script src="javascripts/scale.fix.js"></script>
-</body>
+	<h3>Teaching</h3>
+	<table class="table table-striped table-hover">
+		<tbody>
+			<tr>
+			<td>Winter 2016</td>
+			<td><b>Teaching Assistant</b>, Programming Languages (<a
+			href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140a</a>),
+			UC Davis.  Graded programming assignments, tutored students during office hours,
+			answered questions on online question-and-answer message boards, produced video
+			tutorials.</td>
+			</tr>
+
+			<tr>
+			<td>Fall 2015</td>
+			<td><b>Teaching Assistant</b>, Programming Languages (<a
+			href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140a</a>),
+			UC Davis.  Led weekly discussions, graded programming assignments.</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+      <footer>
+			Footer
+      </footer>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+  <script type="text/javascript">/* <![CDATA[
+*/(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/*
+]]> */</script></body>
 </html>
+
