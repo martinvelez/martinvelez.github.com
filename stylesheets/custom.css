@@ -1,0 +1,6 @@
+/* Classes to apply only text-align when the screen is big enough */
+@media (min-width:768px)
+{
+  .text-right-responsive {text-align:right;}
+  .text-left-responsive {text-align:left;}
+} 
