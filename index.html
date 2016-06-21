@@ -5,6 +5,7 @@
     <title>Martin Velez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="stylesheets/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="stylesheets/bootstrap-social.css" media="screen">
@@ -62,8 +63,10 @@ id="themes">Publications <span class="caret"></span></a>
     <div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-9">
-					<h1 style="margin-top: 0px;margin-bottom:0px">Martin Velez</h1>
-					<p class="lead">Ph.D. Student<br>
+					<!--<h1 style="margin-top: 0px;margin-bottom:0px">Martin Velez</h1>-->
+					<h1 style="margin-top:0px">Martin Velez</h1>
+					<p class="">Ph.D. Student<br>
+					Kemper Hall 2249<br>
 					<a href="http://www.cs.ucdavis.edu/">Department of Computer Science</a><br>
 					<a href="https://www.ucdavis.edu/">University of California, Davis</a><br>
 					<a href="mailto:marvelez@ucdavis.edu">marvelez@ucdavis.edu</a>
@@ -221,7 +224,16 @@ href="">CV</a>.</p>
 				</div>
 			</div>
 		</section>
-		<section id="footerRights" style="background-color:#333333;color:#999999">
+		<section style="background-color:#333333;color:#999999">
+		<div class="container">	
+			<p style="margin-top:10px">
+			<a class="twitter-timeline" href="https://twitter.com/martin_velez_"
+			width="300" height="300">Tweets by martin_velez_</a> 
+			</p>
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+		</section>
+		<section style="background-color:#222222;color:#777777">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-md-12">
@@ -231,7 +243,9 @@ href="">CV</a>.</p>
 				</div>
 			</div>
 		</section>
+		
 </footer>
+
 
 <a href="https://github.com/martinvelez/martinvelez.github.com"><img style="position: absolute; top: 0; right:
 0; border: 0;"
@@ -241,6 +255,22 @@ data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblu
 
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 	<script src="javascripts/bootstrap.min.js"></script>
+	<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+ 
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+ 
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </body>
 </html>
 
