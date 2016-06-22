@@ -17,9 +17,9 @@ the screen shrinks.
 
 ## Requirements 
 
- [Bootstrap](http://getbootstrap.com/)
- [Font-awesome](http://fontawesome.io)
- [Social Buttons for Bootstrap](https://lipis.github.io/bootstrap-social/)
+* [Bootstrap](http://getbootstrap.com/)
+* [Font-awesome](http://fontawesome.io)
+* [Social Buttons for Bootstrap](https://lipis.github.io/bootstrap-social/)
 
 ## LICENSE
 
