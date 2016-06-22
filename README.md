@@ -1,4 +1,7 @@
-# martinvelez.github.com
+# martinvelez.github.io
+
+[DEMO](http://martinvelez.github.io) at http://martinvelez.github.io
+
 
 This is a minimalistic, responsive homepage.  
 
