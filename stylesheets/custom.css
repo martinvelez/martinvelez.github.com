@@ -23,5 +23,12 @@ background-color: #f7f7f7;
 background-color: #ffffff;
 }
 
+body {
+	color: #000000;
+}
+
+.navbar-default {
+	background-color: #FFFFFF;
+}
 
 
