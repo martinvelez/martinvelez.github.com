@@ -27,8 +27,6 @@ body {
 	color: #000000;
 }
 
-.navbar-default {
-	background-color: #FFFFFF;
+body { 
+	font-size: 0.9rem;
 }
-
-
