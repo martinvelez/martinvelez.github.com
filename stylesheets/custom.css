@@ -30,3 +30,9 @@ body {
 body { 
 	font-size: 0.9rem;
 }
+
+#footerWrapper {
+	background-color: #222222;
+	color: #777777;
+	padding: 0.5em
+}

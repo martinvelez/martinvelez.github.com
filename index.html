@@ -68,12 +68,19 @@ queries -->
 
 		<div class="collapse navbar-collapse" id="navbarsExample07">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="publications.html">Publications</a>
+					<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./publications.html">Publications</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./projects.html">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://martinvelez.github.io/blog/">Blog</a>
+				</li>
+
 				<!--
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="http://example.com"
@@ -154,7 +161,7 @@ aria-expanded="false">Dropdown</a>
 
 	<div class="card">
 	<div class="card-body">
-	<h3 class="card-title">Publications</h3>
+	<h3 class="card-title"><a href="publications.html">Publications</a></h3>
 
 	<p>
 	<a href="http://www.sciencedirect.com/science/article/pii/S0022030217307579">Heifer
@@ -189,15 +196,26 @@ aria-expanded="false">Dropdown</a>
 
 	<div class="card">
 	<div class="card-body">
-		<h3 class="card-title">Projects</h3>
-		<p>Checkout my <a href="https://github.com/martinvelez">Github</a>, and <a href="https://bitbucket.org/">Bitbucket</a> for a full list of my repositories.</p>
-		<ul>
-		<li><a href="https://kodethon.com">Kodethon</a>: A cloud development environment.</li>
-		<li><a href="">Categorizer (Demo)</a>: Organize coffee flavor attributes into trees. Used to develop the new coffee flavor wheel!</li>
-		<li>Lexical Distinguishability: What is the essence of code?</li>
-		<li><a href="https://bitbucket.org/martinvelez/bovine_brd">Bovine Respiratory
-		Disease</a>: Track the grooming behavior of steer (male cows) to better diagnose those that suffer from bovine respiratory disease.</li>
-		</ul>
+		<h3 class="card-title"><a href="projects.html">Projects</a></h3>
+		<table class="table table-sm">
+			<tr>
+				<td><a href="https://kodethon.com">Kodethon</a></td>
+				<td>Kodethon is an online IDE. </td>
+			</tr>
+			<tr>
+				<td><a href="">CompAssist</a></td>
+				<td>CompAssist is a web application that helps users resolve compiler
+errors by presenting example fixes.  The example fixes are synthetically
+generated using a novel fuzz-and-reduce technique.  </td>
+			</tr>
+			<tr>
+				<td><a href="">Wheat and Chaff in Source Code<a/></td>
+				<td>Source code can be separated into wheat and chaff.</td>
+			</tr>
+		</table>
+
+		<p>You can also checkout my open source code on <a href="https://github.com/martinvelez">Github</a>, and <a href="https://bitbucket.org/">Bitbucket</a>.</p>
+
 	</div><!-- card-body -->
 	</div><!-- card -->
 
@@ -222,9 +240,11 @@ aria-expanded="false">Dropdown</a>
 	<div class="card">
 	<div class="card-body">
 		<h3 class="card-title">Teaching</h3>
-		<p>Programming Languages (<a href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140A</a>), <a href="http://www.cs.ucdavis.edu/blog/ecs-390-teaching-computer-science/">Teaching Assistant</a>, Winter 2017</p>
-		<p>Programming Languages (<a href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140A</a>), <a href="http://www.cs.ucdavis.edu/blog/ecs-390-teaching-computer-science/">Teaching Assistant</a>, Winter 2016</p>
-		<p>Programming Languages (<a href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140A</a>), <a href="http://www.cs.ucdavis.edu/blog/ecs-390-teaching-computer-science/">Teaching Assistant</a>, Fall 2015</p>
+		<ul style="list-style:none;padding-left:0">
+			<li>Programming Languages (<a href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140A</a>), <a href="http://www.cs.ucdavis.edu/blog/ecs-390-teaching-computer-science/">Teaching Assistant</a>, Winter 2017</li>
+			<li>Programming Languages (<a href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140A</a>), <a href="http://www.cs.ucdavis.edu/blog/ecs-390-teaching-computer-science/">Teaching Assistant</a>, Winter 2016</li>
+			<li>Programming Languages (<a href="http://www.cs.ucdavis.edu/blog/ecs-140a-programming-languages/">ECS140A</a>), <a href="http://www.cs.ucdavis.edu/blog/ecs-390-teaching-computer-science/">Teaching Assistant</a>, Fall 2015</li>
+		</ul>
 	</div><!-- card-body -->
 	</div><!-- card -->
 
@@ -233,10 +253,11 @@ aria-expanded="false">Dropdown</a>
 	<div class="card">
 	<div class="card-body">
 		<h3 class="card-title">Awards</h3>
-		<p><a href="http://src.acm.org/previouswinners.html">SPLASH 2014
-		Student Research Competition</a> (1<sup>st</sup> Place), 2014</p>
-		<p><a href="http://www.nsfgrfp.org/">NSF Graduate Research Fellowship Program</a>, 2013</p>
-		<p><a href="http://engineering.ucdavis.edu/graduate/">UCD College of Engineering Towards Outstanding and Promising Students (TOPS) Fellowship</a>, 2012</p>
+		<ul style="list-style:none;padding-left:0">
+			<li><a href="http://src.acm.org/previouswinners.html">SPLASH 2014 Student Research Competition</a> (1<sup>st</sup> Place), 2014</li>
+			<li><a href="http://www.nsfgrfp.org/">NSF Graduate Research Fellowship Program</a>, 2013</li>
+			<li><a href="http://engineering.ucdavis.edu/graduate/">UCD College of Engineering Towards Outstanding and Promising Students (TOPS) Fellowship</a>, 2012</li>
+		</ul>
 	</div><!-- card-body -->
 	</div><!-- card -->
 
@@ -245,8 +266,10 @@ aria-expanded="false">Dropdown</a>
 	<div class="card">
 	<div class="card-body">
 		<h3 class="card-title">Service</h3>
-		<p><a href="http://conf.researchr.org/home/pldi-2016">PLDI 2016</a>, <a href="http://conf.researchr.org/attending/pldi-2016/Student+Volunteers">Student Volunteer</a></p>
-		<p><a href="http://www.cs.ucdavis.edu/fse2016/">FSE 2016</a>, <a href="http://www.cs.ucdavis.edu/fse2016/team/">Web Co-chair</a></p>
+		<ul style="list-style:none;padding-left:0">
+			<li><a href="http://conf.researchr.org/home/pldi-2016">PLDI 2016</a>, <a href="http://conf.researchr.org/attending/pldi-2016/Student+Volunteers">Student Volunteer</a></li>
+			<li><a href="http://www.cs.ucdavis.edu/fse2016/">FSE 2016</a>, <a href="http://www.cs.ucdavis.edu/fse2016/team/">Web Co-chair</a></li>
+		</ul>
 	</div><!-- card-body -->
 	</div><!-- card -->
 
@@ -255,13 +278,15 @@ aria-expanded="false">Dropdown</a>
 	<div class="card">
 	<div class="card-body">
 		<h3 class="card-title">Activities</h3>
-		<p><a href="http://fm.csl.sri.com/SSFT16/">Sixth Summer School on Formal
-Techniques</a>, Menlo College, California, 2016</p>
-		<p><a href="http://fm.csl.sri.com/SSFT15/">Fifth Summer School on Formal
-Techniques</a>, Menlo College, California, 2015</p>
-		<p><a href="https://excape.cis.upenn.edu/np_summer-school.html">ExCAPE
+		<ul style="list-style:none;padding-left:0">
+		<li><a href="http://fm.csl.sri.com/SSFT16/">Sixth Summer School on Formal
+Techniques</a>, Menlo College, California, 2016</li>
+		<li><a href="http://fm.csl.sri.com/SSFT15/">Fifth Summer School on Formal
+Techniques</a>, Menlo College, California, 2015</li>
+		<li><a href="https://excape.cis.upenn.edu/np_summer-school.html">ExCAPE
 Summer School on Program Synthesis</a>, University of California Berkeley,
-California, 2013</p>
+California, 2013</li>
+		</ul>
 	</div><!-- card-body -->
 	</div><!-- card -->
 
@@ -273,7 +298,7 @@ California, 2013</p>
 
 
 
-	<footer id="footerWrapper" style="background-color:#222222;color:#777777">
+	<footer id="footerWrapper">
 		<section id="mainFooter">
 			<div class="container">
 				<div class="row">
