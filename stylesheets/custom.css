@@ -5,11 +5,8 @@
   .text-left-responsive {text-align:left;}
 } 
 
-@media (min-width: 1200px)
-{
 .container {
     max-width: 720px;
-}
 }
 
 /* borderless table */
