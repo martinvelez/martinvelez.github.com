@@ -5,6 +5,12 @@
   .text-left-responsive {text-align:left;}
 } 
 
+@media (min-width: 1200px)
+{
+.container {
+    max-width: 720px;
+}
+}
 
 /* borderless table */
 .table.table-borderless td, .table.table-borderless th {
@@ -36,3 +42,5 @@ body {
 	color: #777777;
 	padding: 0.5em
 }
+
+
