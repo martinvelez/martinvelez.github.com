@@ -1,5 +1,7 @@
 # martinvelez.github.io
 
+[![Join the chat at https://gitter.im/martinvelez-github-com/Lobby](https://badges.gitter.im/martinvelez-github-com/Lobby.svg)](https://gitter.im/martinvelez-github-com/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [DEMO](http://martinvelez.github.io) at http://martinvelez.github.io
 
 
